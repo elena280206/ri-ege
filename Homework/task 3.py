@@ -1,7 +1,0 @@
-print('Enter the 1nd number')
-a = input()
-print('Enter the 2nd number')
-b = input()
-print("The sum of the numbers", str(a), "and", str(b), "is", (int(a) + int(b)))
-print("The difference of the numbers", str(a), "and", str(b), "is", (int(a) - int(b)))
-print("The quotient of the numbers", str(a), "and", str(b), "is", (int(a) / int(b)))
