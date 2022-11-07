@@ -1,1 +1,1 @@
-print(5 / 5)
+print(range(1, 8))
