@@ -3,11 +3,11 @@ b = 'синий'
 y = 'желтый'
 n = input()
 m = input()
-if n or m == r and n or m == b:
+if n == r and m == b or n == b and m == r:
     print('Фиолетовый')
-elif n or m == r and n or m == y:
+elif n == r and m == y or n == y and m == r:
     print('Оранжевый')
-elif n or m == b and n or m == y:
+elif n == b and m == y or n == y and m == b:
     print ('Зеленый')
 elif n and m == r:
     print('Красный')
