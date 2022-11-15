@@ -1,14 +1,13 @@
 n = int(input())
-s = 0
-max1 = s
-max2 = 0
-max3 = 0
-for i in range(1, int((n**0.5)+1)):
+max1 = max2 = max3 = 0
+for i in range(1, n + 1):
     if n % i == 0:
-        s += i
-        print(s)
-        s += n // i
-        print(s)
-        #if max2 > max1
-           # max2 = s
-print(s)
+        i += i
+        max1 = i
+        print(i)
+        i += n // i
+        print(i)
+        if max1 < i:
+            max2 = i
+    if max2 < i:
+        print(max1, max2, max3)
