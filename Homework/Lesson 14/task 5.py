@@ -1,7 +1,4 @@
-n = int(input())
-i = n % 10
-while n >= 100:
-    n = n // 10
-j = n // 10
-print(min(i, j))
-print(max(i, j))
+n = input()
+n = list(n)
+print('Минимальное число', min(n))
+print('Максимальное число', max(n))

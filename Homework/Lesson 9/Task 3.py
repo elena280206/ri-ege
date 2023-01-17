@@ -1,18 +1,15 @@
-a1 = input()
-b1 = input()
-c1 = input()
-a = len(a1)
-b = len(b1)
-c = len(c1)
-if a < b and c:
-    print(a1, 'самое короткое название')
-elif b < c and a:
-    print(b1, 'самое короткое название')
-elif c < a and b:
-    print(c1, 'самое короткое название')
-if a > b and c:
-    print(a1, 'самое длинное название')
-elif b > c and a:
-    print(b1, 'самое длинное название')
-elif c > a and b:
-    print(c1, 'самое длинное название')
+a = input()
+b = input()
+c = input()
+if len(a) == min((len(a)), len(b), len(c)):
+    print(a)
+if len(b) == min((len(a)), len(b), len(c)):
+    print(b)
+if len(c) == min((len(a)), len(b), len(c)):
+    print(c)
+if len(a) == max((len(a)), len(b), len(c)):
+    print(a)
+if len(b) == max((len(a)), len(b), len(c)):
+    print(b)
+if len(c) == max((len(a)), len(b), len(c)):
+    print(c)
